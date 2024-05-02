@@ -1,0 +1,17 @@
+.container-fluid a{
+   font-size: 30px;
+   padding: 20px;
+   margin-left: 10px;
+}
+
+/* navbar.css */
+
+@media (max-width: 768px) {
+    .container-fluid {
+      text-align: right;
+    }
+    .container-fluid a{
+      font-size: 40px;
+    }
+  }
+  
