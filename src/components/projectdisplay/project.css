@@ -1,61 +1,49 @@
-.main-skill{
-  position: relative;
+.project-main{
+    position: relative;
   
   background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA2QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQADB//EABwQAQEBAAMBAQEAAAAAAAAAAAABEQIhMRJBUf/EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgQD/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDx9Y0KOvHhrYsZZEGxVkXCkWLjYUi4uKgOL0qyakGNhYuJBjWFjYkGNh2IkGMWNiIJSsQIEpXxMBEbDsGjVgIVjYy0ZyBDjbCxWi4UqxpDyEJIsjYUhiRlxSBxcVcSo42FIuJUMTHTBSo50mHRsSo4lh1MEIDXSwcBBDo2MoaB0ajgVCsTGS6SFEhRplYSRYUvExhzxrAkKNIpDY2LIqCYqxaQLLjYkmJYTIg1hMkGIY2AhRdMGiELBKjWSNg3w6NgQIXIRGsdIU7CHGmSipChSw4MIskuJCIaKhQhsZZG5TKki4zVJrExUSRq1RJEpDQRDkdGogmFRtZI0b0dCgjRKoyS/TgSnGgUWDChBwg4mcBxQhEKsRoQ6RLf6OtqRRQhJJqWrRqStUVFEUUho0qFZKDSo0FKFJKCFQqIS4fEZV8qRro6spR8acuuU9LicDrCc5V1pmLqyiyUPVg6ulKUozxECvqMiKtqIkto61ograFWgzpYaqApRva8k0IaK2oCq6CrNWnKsCUpSHSFK5ylCnSUnOVdNZPWDW+jSelHOU/rpUQryxpyDdUqFrOf0v0hHQbR+ktFOFaKalqpbURtCRktHWS3IKVEaUorUBTS1zWDE6RR3ppTVHSVZQlXWgcpaErag6Noa2lGuuerqTpKuuerpoXVlDW0EtS0d7S1J01NHU1JdbRqBFQt7bURa1PGtS0aUtRmZILPBVE4oxYgUIJV0gtWBqylG2ja2oFraLSoOmq560pTpUtHbU1VFamja2imHaNqaKqNg1VUrDrWgrRTUtRa1tSsEMWeMwK/ixmIVmZBSZikWMyTIzJN+kzENErMClZmSVmZJqjMkjMyIpb2zBJU1WCf/9k=');
   top: 0;
   left: 0;
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   flex-direction: row;
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
- 
 }
 
- 
-.skill-main{
-  width: 100%;
-  position: absolute;
-   
-  margin-top: 5%;
-   
+.project-description{
+  color: antiquewhite;
+    
 }
 
-.product-container{
+.project-iterms{
+  width: auto;
+  padding: 5rem;
   display: flex;
-  flex-wrap: wrap;
-  
-  list-style-type: none;
-  height: auto;
-  min-height: 200px;
-  
-  
+  flex-direction: row;
 }
 
-.product-image{
-  position: relative;
-    height: 15vh;
-    border-radius: 1rem;
-    margin-top: 10px
+.rounded-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px; /* Adjust border-radius to change the roundness */
+  overflow: hidden;
+  background-color: rgba(63, 72, 164, 0.5); /* Adjust the alpha value for transparency */
 }
 
-.product-container-items{
-  
-  width: 30%;
-  margin: 1rem;
-  margin-top: 5%;
-  border-radius: 10px;
-   
-  
+.rounded-table th,
+.rounded-table td {
+  padding: 8px 10px;
+  border: 1px solid #ddd; /* Border color */
 }
 
-.skill-heading {
+.project-heading {
   font-size: 3rem;
-  position: absolute;
+  
   top: 0%;
-  left: 45%;
+  left: 40%;
   color: white;
   font-family: sans-serif;
   background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
@@ -78,89 +66,25 @@
 }
 
 
-.product-container-items h1 {
-   color: beige;
-   font-size: 1.5rem;
-
+.bg-transparent {
+  background: transparent !important; /* Override any existing background color */
 }
 
-.product-container-items h2{
-    color: beige;
-    font-size: 1.2rem;
- }
 
-  
-
-  @media  (max-width: 568px){
-    .product-container{
-      flex-direction: column;
-       
-    }
-
-    .main-skill{
-      height: 250vh;
-    }
-
-    .product-image{
-      height: 10vh;
-      border-radius: 1rem;
-    }
-
-    .skill-heading{
-      font-size: 3rem;
-      margin-top: 0%;
-      left: 35%;
-    }
-
-
-    .product-container-items{
-      width: 90%;
-      margin: 1rem;
-      margin-top: 15%;
-    }
-
-    .product-container-items h1 {
-      color: beige;
-      font-size: 2rem;
-   
-   }
-   
-   .product-container-items h2{
-       color: beige;
-       font-size: 1.5rem;
-    }
+@media  (max-width: 568px){
+  .project-iterms{
+    padding: 1rem;
+     
+     top: 10%;
   }
 
-  @media (min-width: 567px) and (max-width: 768px){
-     .product-container-items{
-      width: 90%;
-      margin: 1rem;
-      margin-top: 15%;
-     }
-
-     .main-skill{
-      height: 250vh;
-      
-     }
-
-     .product-image{
-      height: 14vh;
-      border-radius: 2rem;
-      margin: 0%;
-     }
-     .skill-heading{
-      font-size: 4rem;
-      left: 35%;
-     }
-
-     .product-container-items h1 {
-      color: beige;
-      font-size: 2rem;
-   
-   }
-   
-   .product-container-items h2{
-       color: beige;
-       font-size: 1.5rem;
-    }
+  .project-heading{
+    font-size: 2.5rem;
+    padding: 1rem;
+    left: 20%;
   }
+
+  .project-description{
+    font-size: 20px;
+  }
+}

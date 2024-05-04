@@ -15,8 +15,8 @@ const Indroduction = () => {
          <div className="item"   style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
             <h1 style={{color:'white'}}>
               I'm sathis <br />
-              Software Engineer <br />
-              undergraduate.my GPA is 3.6
+              Software Engineer  
+              undergraduate. 
             </h1>
 
             <h3  style={{color:'white'}}>

@@ -1,6 +1,6 @@
 .container-fluid a{
-   font-size: 30px;
-   padding: 20px;
+   font-size: 20px;
+  
    margin-left: 10px;
 }
 
@@ -11,7 +11,7 @@
       text-align: right;
     }
     .container-fluid a{
-      font-size: 40px;
+      font-size: 20px;
     }
   }
   

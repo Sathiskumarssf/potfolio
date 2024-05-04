@@ -6,7 +6,7 @@ import './navbar.css';
 
 const Navbar = () => {
   return (
-    <div className='p-3'>
+    <div className='p-1'>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">Menu</a>
