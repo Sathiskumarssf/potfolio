@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   flex-direction: row;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,10 +70,17 @@
   background: transparent !important; /* Override any existing background color */
 }
 
+.image-rotation-wrapper{
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  width: 100%;
+}
+
 
 @media  (max-width: 568px){
   .project-iterms{
-    padding: 1rem;
+    padding: 0.5rem;
      
      top: 10%;
   }
@@ -86,5 +93,9 @@
 
   .project-description{
     font-size: 20px;
+  }
+
+  .project-main table th,.project-main table td{
+       font-size: 0.5rem;
   }
 }

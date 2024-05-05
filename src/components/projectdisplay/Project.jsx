@@ -1,5 +1,6 @@
 import React from 'react'
 import './project.css'
+import ImageRodation from '../../parts/ImageRodation'
 
 const project = () => {
   return (
@@ -24,25 +25,38 @@ const project = () => {
             </thead>
             <tbody class="table-group-divider">
               <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <th scope="row">Sport products <br /> selling website</th>
+                <td>I have build entire <br /> website for user with <br /> neccsary funtionalities</td>
+                <td>MERN stack</td>
+                <td>
+                  <a href="(https://github.com/Sathiskumarssf/sportsproducts) ">code</a>
+                </td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <th scope="row">Electronic device <br /> E-commerce website</th>
+                <td>I have build entire <br /> website for user with <br /> neccsary funtionalities</td>
+                <td>HTML,JavaScript,PHP</td>
+                <td>
+                  <a href="https://github.com/Sathiskumarssf/technology-salewebsite">code</a>
+                </td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+              <th scope="row">Dress selling <br />  website</th>
+                <td>VEraity of dress are <br /> avilabe to  purchase <br /> for customers</td>
+                <td>React,Node.js,Experss.js, <br /> SqL for database</td>
+                <td>
+                  <a href="https://github.com/Sathiskumarssf/dress">code</a>
+                </td>
+                
               </tr>
             </tbody>
         </table>
+        
         </div>
+
+        <div className="image-rotation-wrapper">
+        <ImageRodation />
+      </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './skills.css'; // Import your CSS file
+ 
 
 const Skills = () => {
   // Assuming skills are stored in an array
@@ -61,6 +62,7 @@ const Skills = () => {
             ))}
           </ul>
        </div>
+    
     </div>
   );
 }
