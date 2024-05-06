@@ -24,3 +24,19 @@
     height: 100px;
   }
   
+
+  .logo-image{
+    width: 100px;
+    height: 100px;
+  }
+
+  @media  (max-width: 568px){
+    .container {
+      height: 5rem;
+    }
+
+    .logo-image{
+      height: 60px;
+      width: 60px;
+    }
+  }

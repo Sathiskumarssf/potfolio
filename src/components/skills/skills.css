@@ -98,12 +98,13 @@
     }
 
     .main-skill{
-      height: 250vh;
+      height: 300vh;
     }
 
     .product-image{
-      height: 10vh;
+      height: 120px;
       border-radius: 1rem;
+      margin: 0%;
     }
 
     .skill-heading{
@@ -115,19 +116,19 @@
 
     .product-container-items{
       width: 90%;
-      margin: 1rem;
+      margin: .5rem;
       margin-top: 15%;
     }
 
     .product-container-items h1 {
       color: beige;
-      font-size: 2rem;
+      font-size: 1.5rem;
    
    }
    
    .product-container-items h2{
        color: beige;
-       font-size: 1.4rem;
+       font-size: 1rem;
     }
   }
 

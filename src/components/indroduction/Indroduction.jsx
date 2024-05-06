@@ -20,7 +20,7 @@ const Indroduction = () => {
             </h1>
 
             <h3  style={{color:'white'}}>
-            learned lot of technologies base on Web devolopment, <br />
+            I learned lot of technologies base on Web devolopment, <br />
              Mobile devolopment,Data science and Artificial interlegent
             </h3>
 
