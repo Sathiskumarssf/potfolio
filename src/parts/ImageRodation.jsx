@@ -43,7 +43,7 @@ class ImageRodation extends React.Component {
   }
 
   componentDidMount() {
-    this.intervalId = setInterval(this.scrollImages, 2000); // Adjust speed as needed
+    this.intervalId = setInterval(this.scrollImages, 1000); // Adjust speed as needed
   }
 
   componentWillUnmount() {

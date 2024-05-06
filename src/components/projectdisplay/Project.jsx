@@ -5,7 +5,7 @@ import ImageRodation from '../../parts/ImageRodation'
 const project = () => {
   return (
     <div className='project-main'>
-           <h1 className='project-heading'>
+           <h1 className='project-heading' >
             My Projects
            </h1>
 
@@ -29,7 +29,7 @@ const project = () => {
                 <td>I have build entire <br /> website for user with <br /> neccsary funtionalities</td>
                 <td>MERN stack</td>
                 <td>
-                  <a href="(https://github.com/Sathiskumarssf/sportsproducts) ">code</a>
+                  <a href=" https://github.com/Sathiskumarssf/sportsproducts ">code</a>
                 </td>
               </tr>
               <tr>
@@ -41,11 +41,20 @@ const project = () => {
                 </td>
               </tr>
               <tr>
-              <th scope="row">Dress selling <br />  website</th>
+              <th scope="row">Dress selling <br />  Website</th>
                 <td>VEraity of dress are <br /> avilabe to  purchase <br /> for customers</td>
                 <td>React,Node.js,Experss.js, <br /> SqL for database</td>
                 <td>
                   <a href="https://github.com/Sathiskumarssf/dress">code</a>
+                </td>
+                
+              </tr>
+              <tr>
+              <th scope="row">Fruniture selling <br />  Website</th>
+                <td>Simple <br /> customize <br /> Website</td>
+                <td>React,Spring boot <br /> SqL for database</td>
+                <td>
+                  <a href="https://github.com/Shashinda2001/group-project">code</a>
                 </td>
                 
               </tr>

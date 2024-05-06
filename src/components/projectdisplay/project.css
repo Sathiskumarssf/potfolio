@@ -41,7 +41,7 @@
 
 .project-heading {
   font-size: 3rem;
-  
+  padding-top: 4rem;
   top: 0%;
   left: 40%;
   color: white;
@@ -83,6 +83,10 @@
     padding: 0.5rem;
      
      top: 10%;
+  }
+
+  .project-main{
+    height: 90vh;
   }
 
   .project-heading{

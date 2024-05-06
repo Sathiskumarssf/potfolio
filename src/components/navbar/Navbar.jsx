@@ -16,16 +16,16 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"><FaHome /> Home</a> {/* Use <FaHome /> instead of {FaHome} */}
+                <a className="nav-link active" aria-current="page" href="https://www.google.com/maps/@6.4798303,80.6169407,20z?entry=ttu"><FaHome /> Home</a> {/* Use <FaHome /> instead of {FaHome} */}
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><FaGithub /> Github</a> {/* Use <FaGithub /> instead of {FaGithub} */}
+                <a className="nav-link" href="https://github.com/Sathiskumarssf"><FaGithub /> Github</a> {/* Use <FaGithub /> instead of {FaGithub} */}
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><FaLinkedin /> LinkedIn</a> {/* Use <FaLinkedin /> instead of {FaLinkedin} */}
+                <a className="nav-link" href="https://www.linkedin.com/in/sathis-kumar-97771b246/"><FaLinkedin /> LinkedIn</a> {/* Use <FaLinkedin /> instead of {FaLinkedin} */}
               </li>
               <li className="nav-item">
-                <a className="nav-link  " aria-disabled="true"><FaEnvelope/>contect</a>
+                <a className="nav-link " href="sathiskumarsk2001@gmail.com"><FaEnvelope/>contect through Email</a>
               </li>
             </ul>
           </div>
